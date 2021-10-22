@@ -24,6 +24,10 @@ Was able to make a simple CRUD with forms. I wonder when I can actually hook up 
 ## New topic 3(chapter 7): User
 Good old user authentication. Django really abstracts away a lot of the stuff needed for this stuff so it is really really convenient. I'm kinda glad I was forced to do all of this manually by nodejs because now I appreciate this stuff so much more.
 
+Django provides a lot of authentication stuff right of the bat which is pretty cool(django.attrib.auth). I should look into how the default user database is and how the password is encrypted and user authentication logic(comparing passwords and what happens when user inputs something wrong).
+
+Next steps would be figuring out cookies and sessions(maybe store in redis) and adding password reset logic
+
 ## Tests
 * Testing to see whether creating a post actually creates a post
 * Testing to see whether calling an existing routes gives a 200 response.
