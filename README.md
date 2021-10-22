@@ -1,9 +1,9 @@
-# Django For Beginners Chapter 5: Blog
+# Django For Beginners Chapter 5~: Blog
 
 ## Description
-A very simple blog that allows CRUD through the superadmin account. This time there is a very simple frontend and we handle more routes leading to posts.
+A very simple blog that allows CRUD through forms. This time there is a very simple frontend and we handle more routes leading to posts.
 
-## New topic: Routing through html
+## New topic 1: Routing through html
 Nothing groundbreakingly new. This is something I learned while studying Node with the MVC pattern but in Django things have different vocabularies and stuff.
 
 To summarise how things are done in Django(as per my understanding so far):
@@ -13,6 +13,13 @@ To summarise how things are done in Django(as per my understanding so far):
 4. The urlpattern in urls.py points to the Views(name seems misleading somehow as I come from nodejs)
 5. The View uses a model(that interacts with the database) and html template to render a html template
 6. The html template is returned and rendered on the client side
+
+## New topic 2: Forms
+No more making stuff through superadmin. Now we have forms. I don't like writing html/css but oh well.
+Was able to make a simple CRUD with forms. I wonder when I can actually hook up a real database instead of an sqlite3 db. I'm also beginning to see a pattern on how to write and implement new things in Django:
+1. Make a html page or edit existing one that will send the request
+2. Create a view that will handle the request in Views
+3. Add a url to Urls that will connect the request with a url to the Views
 
 ## Tests
 Testing to see whether creating a post actually creates a post
